@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
 </head>
-<body
-    >
-    <table border="1" cellpadding="10px" cellspacing="0">
+<body>
+    <!-- <table border="1" cellpadding="10px" cellspacing="0">
         <caption>BioData</caption>
         <thead>
         <tr>
@@ -115,31 +114,59 @@
     <br>
     <table cellspacing="3" cellpadding="10px" align="center">
 
-    </table>
+    </table> -->
     <!-- Nested Table -->
-     <!-- <table border="2"cellspacing="5" cellpadding="1">
-       <caption>Nested Tables</caption>
-       <thead>
+    <h1>Nested Tables</h1>
+    <h4>Nested table-1</h4>
+    <table border="2">
         <tr>
-            <th>Main table row 1 coloumn 1</th>
-        <td>Main table row 1 coloumn 1</td>
-        <td>Main table coloumn 2 </td>
-       </tr>
-       <table border="2">
+            <td>A</td>
+            <td>B</td>
+        </tr>
+            <td>
+                <table border="2">
+                    <tr>
+                        <td>Inner table row 1 column 1</td>
+                    </tr>
+                    <tr>
+                        <td>Inner table row 2 column 1</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="2">
+                    <tr>
+                        <td>Outer table row 1 column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Outer table row 2 column 2</td>
+                    </tr>
+                </table>
+            </td>
+    </table>
+
+
+    <h4>Nested table-2 </h4>
+    <table border="2">
         <tr>
-        <td>Inner table row 1 coloumn 1</td>
-        <td>Inner table row 1 coloumn 2 </td>
-       </tr>
-       <tr>
-        <td>Inner table row 2 coloumn 1</td>
-        <td>Inner table row 2 coloumn 2 </td>
-       </tr>
-       </table>
-       <tr>
-        <th>main table row 2 column 1</th>
-        <td>main table row 2 column 2</td>
-       </tr>
-       </thead>
-     </table> -->
+            <td>Main Table column1</td>
+            <td>Main table cloumn2
+                <table border="2">
+                    <tr>
+                        <td>Inner table row1 and column2</td>
+                         <td>Inner table row1 and column2</td>
+                    </tr>
+                    <tr>
+                        <td>Inner table row2 and column2</td>
+                        <td>Inner table row2 and column1</td>
+                    </tr>
+                    <tr>
+                        <td>Inner table row3 and column2</td>
+                        <td>Inner table row3 and column1</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
